@@ -1,0 +1,232 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Rumble",
+            "id": "62666270-6abb-4b32-b35f-9089470a5aa0",
+            "actions": [
+                {
+                    "name": "RumbleAction",
+                    "type": "PassThrough",
+                    "id": "8097f957-8d0d-4f6b-91d8-63dedf381fe8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "452283ec-e2a4-4595-a939-8aeb1c54b627",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "RumbleAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea74fcf2-5242-453b-bc20-90f1646ad59d",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "RumbleAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "OnFoot",
+            "id": "9196e626-68f2-499d-badc-b9fc6aa2e9a3",
+            "actions": [
+                {
+                    "name": "LSVertical",
+                    "type": "Value",
+                    "id": "4b119781-f079-4578-9716-d1afe3eba3f2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LSHorizontal",
+                    "type": "Value",
+                    "id": "4c593cec-a7a5-474b-847f-6b89c013460b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RSHorizontal",
+                    "type": "Value",
+                    "id": "b31819c5-f9d9-44fc-b3c0-1a9474838d0c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RSVertical",
+                    "type": "Value",
+                    "id": "6b83079b-160e-416d-818f-49df4ec865b2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "VerticalInput",
+                    "id": "c91e3c9a-150a-4a95-8f5f-7c8974ce20c0",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Positive",
+                    "id": "efdce40f-f992-4ba7-a144-e9a5d38d7183",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "LSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Negative",
+                    "id": "1949ce78-2026-409d-a443-0dcc7bcc8745",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "LSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "HorizontalInput",
+                    "id": "2b3ad6ab-d644-40ca-8dca-0bc9eab2d2cd",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "11a8af98-5f49-4810-82f2-2ddcc9ffe9fe",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "LSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e7af538d-26c7-4031-aaa4-89a152e56dd8",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "LSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "HorizontalInput",
+                    "id": "1787d3f3-fe29-4ef1-95da-7e15ca0401f1",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RSHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Positive",
+                    "id": "e37eaebb-70be-46da-b865-87991610a535",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "RSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Negative",
+                    "id": "07ada4fb-41a2-4e2b-8fe2-841ffccf7d2a",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "RSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "VerticalInput",
+                    "id": "cd3cf6c1-3044-43c5-913e-f459e03e2178",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RSVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Positive",
+                    "id": "7a62f902-b3b4-423a-8a6c-27b7ffd356eb",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "RSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Negative",
+                    "id": "236ec9f7-20cc-410e-8151-9c24bf93ff8e",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": ";Gamepad",
+                    "action": "RSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": []
+        },
+        {
+            "name": "Gamepad",
+            "bindingGroup": "Gamepad",
+            "devices": []
+        }
+    ]
+}

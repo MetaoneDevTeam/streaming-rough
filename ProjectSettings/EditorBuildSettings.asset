@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BaseScene.unity
+    guid: 4a5f297adbad57140a34979ff05d2f39
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-2.unity
+    guid: 6dcfc326b70b6324cb441fbc82b02481
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-3.unity
+    guid: 9ee7d5ca6075cc042a7dc1e72319bfea
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-4.unity
+    guid: b5165da721ea0084082779dca1fbf15e
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-5.unity
+    guid: 85fdf57c37866b9419c90acab48243e7
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-6.unity
+    guid: af6b9fe765218a742961f5253c103cdd
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-7.unity
+    guid: fa25c610a09d6784285cdb5fbafe7834
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-8.unity
+    guid: 484b780a765888749b4a34453281afa1
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-9.unity
+    guid: d50884155e700e849961c2a016715fca
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-10.unity
+    guid: cfcf507282312a34bbfe69a42da859ac
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-11.unity
+    guid: 276bf5e9e120bbf469ee688e2a34153f
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-12.unity
+    guid: a5fc28b564555654085641e871c024c3
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-13.unity
+    guid: 1dd474105c0aca54cbeee2884ee728cf
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-14.unity
+    guid: a5c76a861004e9e4c809288fa9d8f22f
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-15.unity
+    guid: 2685610dd216f1c4d8a9bed49e0ee2f3
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/Section-16.unity
+    guid: 95c2242213d65504eb8be84c047ef043
+  - enabled: 1
+    path: Assets/Scenes/BaseScene/SubSceneSection-1.unity
+    guid: 4082c909186beec498997a46d65b5a94
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: d23d31a78e2f3d64187d1cbca25a20c2, type: 3}
+  m_UseUCBPForAssetBundles: 0
