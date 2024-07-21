@@ -28,7 +28,6 @@ public partial struct GOHSystem : ISystem
             });
             ecbBOS.RemoveComponent<GOHMaker>(entity);
         }
-
         
         var cleanupQuery = SystemAPI.QueryBuilder().WithAllRW<GOHControl>()
             .WithNone<LocalTransform>().Build();
@@ -38,6 +37,13 @@ public partial struct GOHSystem : ISystem
             GameObject.Destroy(goh.gameObject);
         }
         
+        // doesn't work?
+        state.EntityManager.DestroyEntity(cleanupQuery);
+
+        //state.EntityManager.DestroyEntity(cleanupQuery.ToEntityArray(Allocator.Temp));
+        
+        //ecbBOS.Playback(state.EntityManager);
+        //ecbBOS.Dispose();
         
         // ECB based system
         /*
