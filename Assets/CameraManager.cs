@@ -46,7 +46,7 @@ public class CameraManager : MonoBehaviour
     void LateUpdate()
     {
         // roll calculation/
-        _cRoll += InputManager.instance.rHorizontal * Time.deltaTime * 8f;
+        _cRoll += InputManager.instance.rHorizontal * Time.deltaTime * 1f;
         
         if (_cRoll < 0f) _cRoll += 360f;
         if (_cRoll > 360f) _cRoll -= 360f;
@@ -59,10 +59,8 @@ public class CameraManager : MonoBehaviour
         // look into this --
         transform.rotation = quaternion.Euler(new float3(0f, _cRoll, 0f), math.RotationOrder.Default);
         
-        //_yawTemp.x += InputManager.instance.rLerped.y * Time.deltaTime * _yawSensitivity;
-        //_yawTemp.x = Mathf.Clamp(_yawTemp.x, _yawLimit[0], _yawLimit[1]);
-        //_cameraYawTransform.localEulerAngles = _yawTemp;
-        
-        
+        _yawTemp.x += InputManager.instance.rLerped.y * Time.deltaTime * _yawSensitivity;
+        _yawTemp.x = Mathf.Clamp(_yawTemp.x, _yawLimit[0], _yawLimit[1]);
+        _cameraYawTransform.localEulerAngles = _yawTemp;
     }
 }

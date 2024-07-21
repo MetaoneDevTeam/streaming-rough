@@ -116,6 +116,39 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "1D Axis",
+                    "id": "6ae4f768-bb01-468b-8335-d9442625cf6a",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "468084a3-24b4-4eaf-bd29-a1cd9b7aa6b1",
+                    "path": "<Keyboard>/#(S)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "LSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "37c91b73-21f8-4986-b17e-b7a924e1c8a0",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "HorizontalInput",
                     "id": "2b3ad6ab-d644-40ca-8dca-0bc9eab2d2cd",
                     "path": "1DAxis",
@@ -144,6 +177,39 @@
                     "interactions": "",
                     "processors": "AxisDeadzone",
                     "groups": ";Gamepad",
+                    "action": "LSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "cc27a69c-87bd-4dcf-9a4a-d0bb438af503",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "95a4872e-af72-4420-8950-ee397c11d72b",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "c4ec1a11-ed60-4cae-aef2-e7716a15a2da",
+                    "path": "<Keyboard>/#(D)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "LSHorizontal",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -182,6 +248,39 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "1D Axis",
+                    "id": "484e07cf-0792-4d6a-b3a6-c4493f69bdec",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RSHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3396c3a3-ed5a-48a5-aaa4-5fc32333d14a",
+                    "path": "<Mouse>/delta/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "RSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "761923aa-457d-48b8-b347-7a58d365fcea",
+                    "path": "<Mouse>/delta/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "RSHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "VerticalInput",
                     "id": "cd3cf6c1-3044-43c5-913e-f459e03e2178",
                     "path": "1DAxis",
@@ -210,6 +309,39 @@
                     "interactions": "",
                     "processors": "AxisDeadzone",
                     "groups": ";Gamepad",
+                    "action": "RSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "433acfe0-e161-4b0b-9c83-7a8f3bb0e032",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RSVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Positive",
+                    "id": "8d0eb748-24e3-4f2b-80c8-6cb7805438c8",
+                    "path": "<Mouse>/delta/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
+                    "action": "RSVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Negative",
+                    "id": "e79eec44-73b2-45f0-9e47-70017408dde5",
+                    "path": "<Mouse>/delta/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard",
                     "action": "RSVertical",
                     "isComposite": false,
                     "isPartOfComposite": true

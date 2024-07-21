@@ -33,11 +33,11 @@ using UnityEngine;
                     float3 distance = transform.ValueRO.Position - circles[index].center;
                     distance.y = 0;
                     float radiusSq = circles[index].radius[0];
-                    Color debugColor = new Color(1f, 0f, 0f);
+                    Color debugColor = new Color(0f, 0f, 0f, 0.3f);
                     if (math.lengthsq(distance) < radiusSq * radiusSq)
                     {
                         toLoad.Add(sectionEntities[index]);
-                        debugColor = new Color(0f, 0.5f, 0f);
+                        debugColor = new Color(1f, 1f, 1f);
                     }
 
                     DrawCircleXZ(circles[index].center + new float3(0f, 0.2f, 0f),
